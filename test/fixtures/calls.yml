@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  phone: MyText
+  start: 2019-11-02 21:08:02
+  end: 2019-11-02 21:08:02
+  client: one
+
+two:
+  phone: MyText
+  start: 2019-11-02 21:08:02
+  end: 2019-11-02 21:08:02
+  client: two
