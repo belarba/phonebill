@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title Cobrança
+    meta name="keywords" content="template language"
+
+  body
+    h1 Gerar Cobrança
+
+    = link_to 'Gerar!', :method => :post
+
+    - @calls.each do |call|
+        td = call.phone
+        td = 'batata'
